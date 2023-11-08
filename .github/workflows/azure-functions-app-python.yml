@@ -1,5 +1,4 @@
 name: Build and deploy Python project to Azure Function App - azuretest9871
-
 on:
   push:
     branches:
