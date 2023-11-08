@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+  pull-request:
+    branches:
+      - main
       
 # 1. Set up the following secrets in your repository:
 #   AZURE_FUNCTIONAPP_PUBLISH_PROFILE
